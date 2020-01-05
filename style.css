@@ -61,6 +61,10 @@
     animation: fadeIn 1s ease-out 3.6s 1 normal both;
 }
 
+.project-section {
+    height: 100vh;
+}
+
 @keyframes fadeIn {
     from {
       opacity: 0;
