@@ -1,23 +1,25 @@
 $('#skillsButton').click(function(){
-    $('.hero-container').fadeTo(1000,0);
-    $('.button-container').fadeTo(1000,0);
+    $('.hero').fadeTo(1000,0);
     $('#skillsButton').attr('disabled', 'disabled');
     setTimeout(()=> {
-    $('.hero-container').html(`
+    $('body').html(`
         <div class="skill-container">
             <div class="skill-one">
-                <p>HTML and CSS</p>
+                <h4>HTML and CSS</h4>
+                <p>Creating mobile responsive websites using CSS Grid and Flexbox</p>
+                <p>Using CSS Frameworks such as Bootstrap 4 for quick and simple implementations</p>
+                <p>CSS Preprocessing with Sass</p>
             </div>
 
             <div class="skill-two">
-                <p>JavaScript and JQuery</p>
+                <h4>JavaScript and JQuery</h4>
             </div>
 
             <div class="skill-three">
-                <p>Version Control with GitHub</p>
+                <h4>Version Control with GitHub</h4>
             </div>
         </div>
     `);
-    $('.hero-container').fadeTo(1000,1);
+    $('.skill-container').fadeTo(1000,1);
     }, 1000)
   });
