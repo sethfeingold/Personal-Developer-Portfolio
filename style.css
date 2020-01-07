@@ -8,6 +8,7 @@ body {
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     width: 100%;
+    height: auto;
 }
 
 .hero {
@@ -67,17 +68,7 @@ body {
     animation: fadeIn 1s ease-out 3.6s 1 normal both;
 }
 
-.project-section {
-    height: 100vh;
-    
-}
-
-.projects-title {
-    text-align: center;
-    padding-top: 20px;
-}
-
-#skillsButton {
+#skillsButton, #projectsButton {
     width: 200px;
     height: 40px;
     margin: 0 auto;
@@ -92,25 +83,26 @@ body {
 
 .button-container {
     margin: 0 auto;
+    display: flex;
+
 }
 
-#skillsButton:focus {
-    outline: 5px dotted #7176BF;
+#skillsButton:focus, #projectsButton:focus {
+    outline: 4px dotted #7176BF;
     outline-offset: 4px;
     border-bottom: 3px solid #7176BF;
 }
 
-#skillsButton:hover {
-    box-shadow: 8px 8px 10px rgba(0,0,0,0.15);
+#skillsButton:hover, #projectsButton:hover {
     border-bottom: 3px solid #7176BF;
 }
 
-#skillsButton:active {
+#skillsButton:active, #projectsButton:active {
     border: none;
     border-bottom: 2px solid #7176BF;
 }
 
-#skillsButton {
+#skillsButton, #projectsButton {
     animation: fadeIn 1s ease-out 4s 1 normal both;
 }
 
@@ -118,29 +110,32 @@ body {
     opacity: 0;
     display: flex;
     flex-direction: column;
-    border-radius: 5px;
-    background-color: rgb(255, 255, 255);
-    border: 2px solid #646464;
-    margin: 20px;
-    padding: 10px;
     text-align: center;
-    overflow: scroll;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
  .skill-one, .skill-two, .skill-three {
-    margin: 10px 0;
-    padding: 10px;
+    margin: 20px auto;
+    padding: 10px 30px;
     border-radius: 5px;
     background-color: rgb(218, 218, 218);
-    border: 2px solid #646464;
+    border: none;
     color: #7176BF;
     font-weight: 600;
+    box-shadow: 5px 5px 10px rgba(15,15,15,0.15);
  }
 
  .skill-container p {
     color: rgb(73, 73, 73);
  }
 
+ .skill-logo {
+    margin: 0 auto;
+    padding: 20px 0 60px 0;
+    height: 70px;
+    width: 70px;
+ }
 
 @keyframes fadeIn {
     from {
@@ -179,21 +174,9 @@ body {
 
     .skill-container {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-gap: 10px;
     }
-    
-    .skill-one {
-        grid-column: 1 / 2; 
-    }
-    
-    .skill-two {
-        grid-column: 2 / 3; 
-     }
-    
-     .skill-three {
-        grid-column: 3 / 4; 
-     }
     
 }
 
@@ -202,6 +185,12 @@ body {
     .icon {
         padding: 0px;
         margin: 0px 20px;
+    }
+
+    .skill-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
     }
     
 }
