@@ -5,10 +5,10 @@
 }
 
 body {
-    background: rgb(238,174,202);
+    /* background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     width: 100%;
-    height: auto;
+    height: auto; */
 }
 
 .hero {
@@ -32,7 +32,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    transform: translateY(-125px);
+    transform: translateY(-105px);
 }
 
 .text-container {
@@ -75,7 +75,7 @@ body {
     transform: translateY(-50px);
     border-radius: 5px;
     background-color: rgb(223, 223, 223);
-    border-bottom: 3px solid #969696;
+    border: 3px solid #7176BF;
     color: #7176BF;
     font-weight: 600;
     font-size: 1.3rem;
@@ -84,7 +84,7 @@ body {
 .button-container {
     margin: 0 auto;
     display: flex;
-
+    flex-direction: column;
 }
 
 #skillsButton:focus, #projectsButton:focus {
@@ -94,16 +94,23 @@ body {
 }
 
 #skillsButton:hover, #projectsButton:hover {
-    border-bottom: 3px solid #7176BF;
-}
-
-#skillsButton:active, #projectsButton:active {
-    border: none;
-    border-bottom: 2px solid #7176BF;
+    box-shadow: 5px 5px 10px rgba(15,15,15,0.15);
 }
 
 #skillsButton, #projectsButton {
     animation: fadeIn 1s ease-out 4s 1 normal both;
+}
+
+#projectsButton {
+    margin-top: 20px;
+}
+
+.skill-page-container {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    width: 100%;
+    height: 100vh;
+    overflow: scroll;
 }
 
 .skill-container {
@@ -137,6 +144,16 @@ body {
     width: 70px;
  }
 
+ .prev-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+ }
+
+ #homeButton, #projectSkillsBtn {
+    margin: 0 10px;
+ }
+
 @keyframes fadeIn {
     from {
       opacity: 0;
@@ -167,9 +184,40 @@ body {
         transform: translateY(-100px);
     }
 
+    .icon {
+        padding: 0px;
+        margin: 0px 10px;
+    }
+
     .hero-container {
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    .button-container {
+        flex-direction: row;
+    }
+
+    #skillsButton, #projectsButton {
+        width: 200px;
+        height: 40px;
+        margin: 20px;
+        transform: translateY(-50px);
+        border-radius: 5px;
+        background-color: rgb(223, 223, 223);
+        border: none;
+        border-bottom: 3px solid #969696;
+        color: #7176BF;
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+
+    #skillsButton:hover, #projectsButton:hover {
+        border-bottom: 3px solid #7176BF;
+    }
+
+    #skillsButton:active, #projectsButton:active {
+        border-bottom: 2px solid #7176BF;
     }
 
     .skill-container {
