@@ -72,7 +72,7 @@ $(document).on("click", "#skillsButton", function() {
 
 $(document).on("click", "#homeButton", function() {
     $('.skill-container').fadeTo(800,0);
-    // $('.hero').fadeTo(1200,1);
+    $('.hero').fadeTo(1200,1);
     setTimeout( () => {
         location.reload(true);
     }, 800);
