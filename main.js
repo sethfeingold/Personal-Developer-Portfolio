@@ -28,10 +28,13 @@ $(document).on("click", "#skillsButton", function() {
                         </g><path style="fill:#C3DDF4;" d="M479.756,292.257c0,2.75-2.25,5-5,5H353.101c-2.75,0-5-2.25-5-5v-41.244c0-2.75,2.25-5,5-5h121.655  c2.75,0,5,2.25,5,5V292.257z" data-original="#C3DDF4" class=""/><path style="fill:#AEC1ED;" d="M367.943,292.257v-41.244c0-2.75,2.25-5,5-5h-19.842c-2.75,0-5,2.25-5,5v41.244c0,2.75,2.25,5,5,5  h19.842C370.193,297.257,367.943,295.007,367.943,292.257z" data-original="#AEC1ED" class=""/><path style="fill:#C3DDF4;" d="M461.757,409.416c0,2.75-2.25,5-5,5H371.1c-2.75,0-5-2.25-5-5v-16.91c0-2.75,2.25-5,5-5h85.657  c2.75,0,5,2.25,5,5L461.757,409.416L461.757,409.416z" data-original="#C3DDF4" class=""/><path style="fill:#AEC1ED;" d="M385.942,409.416v-16.91c0-2.75,2.25-5,5-5H371.1c-2.75,0-5,2.25-5,5v16.91c0,2.75,2.25,5,5,5h19.842  C388.192,414.416,385.942,412.166,385.942,409.416z" data-original="#AEC1ED" class=""/></g> 
                         </svg>
                     </div>
-                    <h4>HTML and CSS</h4>
-                    <p>Creating mobile responsive websites using <strong>CSS Grid</strong> and <strong>Flexbox</strong></p>
-                    <p>Using CSS Frameworks such as <strong>Bootstrap 4</strong> for quick and simple implementations</p>
-                    <p>CSS Preprocessing with <strong>Sass</strong> in order to create consistent, reusable component styles</p>
+                    <h4>HTML5 and CSS3</h4>
+                    <br/>
+                    <p>Implements a modern, mobile-first approach to ensure websites display correctly on any device regardless of screen width and maintain cross-browser compatibility</p>
+                    <br/>
+                    <p>Utilizes CSS Grid and Flexbox in order to create clean, responsive layouts</p>
+                    <br/>
+                    <p>Makes use of the latest HTML5 tags and SEO practices in order to boost web traffic and provide more accessibility to websites</p>
                 </div>
 
                 <div class="skill-two">
