@@ -114,40 +114,56 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    max-width: 80%;
+    max-width: 85%;
     margin: 0 auto;
     padding-top: 20px;
 }
 
- .skill-one, .skill-two, .skill-three {
+.about-me, .skill-list {
     margin: 20px auto;
     padding: 10px 30px;
     border-radius: 5px;
     background-color: rgb(248, 248, 248);
     border: none;
-    color: #7176BF;
+    color: black;
     font-weight: 600;
     box-shadow: 0px 0px 15px rgba(15,15,15,0.25);
- }
+    width: 100%;
+}
 
- .skill-container p {
+.skill-title {
+    color: #7176BF;
+}
+
+.logo-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.skills-wrapper ul {
+    list-style: none;
+    padding-top: 20px;
+}
+
+.skill-container p {
     color: rgb(73, 73, 73);
- }
+}
 
- .skill-logo {
+.skill-logo {
     margin: 0 auto;
-    padding: 20px 0 60px 0;
+    padding: 20px 0 80px 0;
     height: 70px;
     width: 70px;
- }
+}
 
- .prev-btn-container {
+.prev-btn-container {
     display: flex;
     justify-content: center;
     margin-top: 20px;
- }
+}
 
- #homeButton, #projectSkillsBtn {
+#homeButton, #projectSkillsBtn {
     margin: 0 10px;
     padding: 5px 10px;
     border-radius: 5px;
@@ -155,7 +171,7 @@
     color: #7176BF;
     font-weight: 600;
     background-color: rgb(241, 241, 241);
- }
+}
 
 @keyframes fadeIn {
     from {
@@ -230,10 +246,11 @@
 
     .skill-container {
         display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+        padding-top: 60px;
+        max-width: 90%;
     }
-    
 }
 
 @media (min-width: 1024px) {
@@ -243,11 +260,12 @@
         margin: 0px 20px;
     }
 
+    .about-me, .skill-list {
+        padding: 10px 60px;
+    }
+
     .skill-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 10px;
-        padding-top: 60px;
+        max-width: 80%;
     }
     
 }
