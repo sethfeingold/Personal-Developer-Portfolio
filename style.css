@@ -88,7 +88,7 @@
     border: 3px solid #7176BF;
 }
 
-#homeButton:focus, #projectSkillsBtn:focus {
+#homeButton:focus, #projectFromSkillsBtn:focus {
     outline: 4px dotted #7176BF;
     outline-offset: 4px;
 }
@@ -163,14 +163,20 @@
     margin-top: 20px;
 }
 
-#homeButton, #projectSkillsBtn {
+#homeButton, #projectFromSkillsBtn, #skillsFromProjectsBtn {
     margin: 0 10px;
     padding: 5px 10px;
     border-radius: 5px;
     border: 2px solid #7176BF;
+    border-bottom: 4px solid #7176BF;
     color: #7176BF;
     font-weight: 600;
     background-color: rgb(241, 241, 241);
+    height: 40px;
+}
+
+#homeButton:active, #projectFromSkillsBtn:active, #skillsFromProjectsBtn:active {
+    border-bottom: 2px solid #7176BF;
 }
 
 @keyframes fadeIn {
