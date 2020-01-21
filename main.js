@@ -200,35 +200,39 @@ $(document).on("click", "#projectsButton", function() {
             </div>
             <div class="project-container">
                 <div class="project-card">
-                    Project 1 image
-
-                    Project 1 description
-
-                    Link to project 1
+                    <h4 class="project-title">Web App Dashboard</h4>
+                    <img class="project-image" src="./images/project-images/webapp-dashboard.jpeg" alt="webapp dashboard screenshot" width="250px" height="250px"> <br/>
+                    <a href="https://sethfeingold.github.io/webapp-dashboard" target="_blank" class="project-link">View Project</a>
                 </div>
 
                 <div class="project-card">
-                    Project 2 image
-
-                    Project 2 description
-
-                    Link to project 2
+                    <h4 class="project-title">Word Guessing Game</h4>
+                    <img class="project-image" src="./images/project-images/word-guessing-game.jpeg" alt="word guessing game screenshot" width="250px" height="250px"> <br/>
+                    <a href="https://sethfeingold.github.io/word-guessing-game" target="_blank" class="project-link">View Project</a>
                 </div>
 
                 <div class="project-card">
-                    Project 3 image
-
-                    Project 3 description
-
-                    Link to project 3
+                    <h4 class="project-title">Employee Directory</h4>
+                    <img class="project-image" src="./images/project-images/employee-directory.jpeg" alt="employee directory screenshot" width="250px" height="250px"> <br/>
+                    <a href="https://sethfeingold.github.io/employee-directory-using-api" target="_blank" class="project-link">View Project</a>
                 </div>
 
                 <div class="project-card">
-                    Project 4 image
+                    <h4 class="project-title">Responsive Web Form</h4>
+                    <img class="project-image" src="./images/project-images/responsive-web-form.jpeg" alt="responsive web form screenshot" width="250px" height="250px"> <br/>
+                    <a href="https://sethfeingold.github.io/tech-degree-project-3" target="_blank" class="project-link">View Project</a>
+                </div>
 
-                    Project 4 description
+                <div class="project-card">
+                    <h4 class="project-title">Interactive Gallery</h4>
+                    <img class="project-image" src="./images/project-images/interactive-gallery.jpeg" alt="interactive photo gallery screenshot" width="250px" height="250px"> <br/>
+                    <a href="https://sethfeingold.github.io/tech-degree-project-5" target="_blank" class="project-link">View Project</a>
+                </div>
 
-                    Link to project 4
+                <div class="project-card">
+                    <h4 class="project-title">Personal Blog Page</h4>
+                    <img class="project-image" src="./images/project-images/personal-page.jpeg" alt="personal blog page screenshot" width="250px" height="250px"> <br/>
+                    <a href="https://sethfeingold.github.io/tech-degree-project-1" target="_blank" class="project-link">View Project</a>
                 </div>
             </div>
         </div>
@@ -243,7 +247,7 @@ $(document).on("click", "#projectFromSkillsBtn", function() {
     $('.skill-container').fadeTo(1000,0);
     $('#skillsButton').attr('disabled', 'disabled');
     setTimeout(()=> {
-    $('body').html(`
+        $('body').html(`
         <div class="projects-page-container">
             <div class="prev-btn-container">
                 <button id="homeButton">Back to Home</button>
@@ -251,35 +255,39 @@ $(document).on("click", "#projectFromSkillsBtn", function() {
             </div>
             <div class="project-container">
                 <div class="project-card">
-                    Project 1 image
-
-                    Project 1 description
-
-                    Link to project 1
+                    <h4 class="project-title">Web App Dashboard</h4>
+                    <img class="project-image" src="./images/project-images/webapp-dashboard.jpeg" alt="webapp dashboard screenshot" width="250px" height="250px"> <br/>
+                    <a href="https://sethfeingold.github.io/webapp-dashboard" target="_blank" class="project-link">View Project</a>
                 </div>
 
                 <div class="project-card">
-                    Project 2 image
-
-                    Project 2 description
-
-                    Link to project 2
+                    <h4 class="project-title">Word Guessing Game</h4>
+                    <img class="project-image" src="./images/project-images/word-guessing-game.jpeg" alt="word guessing game screenshot" width="250px" height="250px"> <br/>
+                    <a href="https://sethfeingold.github.io/word-guessing-game" target="_blank" class="project-link">View Project</a>
                 </div>
 
                 <div class="project-card">
-                    Project 3 image
-
-                    Project 3 description
-
-                    Link to project 3
+                    <h4 class="project-title">Employee Directory</h4>
+                    <img class="project-image" src="./images/project-images/employee-directory.jpeg" alt="employee directory screenshot" width="250px" height="250px"> <br/>
+                    <a href="https://sethfeingold.github.io/employee-directory-using-api" target="_blank" class="project-link">View Project</a>
                 </div>
 
                 <div class="project-card">
-                    Project 4 image
+                    <h4 class="project-title">Responsive Web Form</h4>
+                    <img class="project-image" src="./images/project-images/responsive-web-form.jpeg" alt="responsive web form screenshot" width="250px" height="250px"> <br/>
+                    <a href="https://sethfeingold.github.io/tech-degree-project-3" target="_blank" class="project-link">View Project</a>
+                </div>
 
-                    Project 4 description
+                <div class="project-card">
+                    <h4 class="project-title">Interactive Gallery</h4>
+                    <img class="project-image" src="./images/project-images/interactive-gallery.jpeg" alt="interactive photo gallery screenshot" width="250px" height="250px"> <br/>
+                    <a href="https://sethfeingold.github.io/tech-degree-project-5" target="_blank" class="project-link">View Project</a>
+                </div>
 
-                    Link to project 4
+                <div class="project-card">
+                    <h4 class="project-title">Personal Blog Page</h4>
+                    <img class="project-image" src="./images/project-images/personal-page.jpeg" alt="personal blog page screenshot" width="250px" height="250px"> <br/>
+                    <a href="https://sethfeingold.github.io/tech-degree-project-1" target="_blank" class="project-link">View Project</a>
                 </div>
             </div>
         </div>
