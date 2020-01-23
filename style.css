@@ -26,6 +26,7 @@
     align-items: center;
     justify-content: space-evenly;
     transform: translateY(-105px);
+    opacity: 0;
 }
 
 .text-container {
@@ -61,6 +62,10 @@
 
 .desktop-icon {
     animation: fadeIn 1s ease-out 3.6s 1 normal both;
+}
+
+.contact-container {
+    animation: fadeIn 1s ease-out 4.3s 1 normal both;
 }
 
 #skillsButton, #projectsButton {
@@ -217,10 +222,53 @@
     to {
       opacity: 1;
     }
-  }
+}
   
+.contact-container {
+    margin: 0 auto;
+    color: #7176BF;
+    border: 3px solid #7176BF;
+    border-radius: 5px;
+    background-color: rgb(241, 241, 241);
+    padding: 8px 12px;
+}
+
+.social-media-container {
+    text-align: center;
+
+}
+
+a.social {
+    margin: 0px 10px;
+    display: inline-block;
+    text-indent: -9999px;
+    width: 40px;
+    height: 40px;
+    background-size: 30px 30px;
+    opacity: 0.8;
+    transition: all .5s;
+}
+
+a.social:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+a.github {
+    background: url(./images/svg_icons/github.svg);
+}
+
+a.linkedin {
+    background: url(./images/svg_icons/linkedin.svg);
+}
 
   /* MEDIA QUERIES */
+
+@media (min-width: 350px) {
+    .icon-container {
+        opacity: 1;
+    }
+}
 
 @media (min-width: 768px) {
     h1 {
