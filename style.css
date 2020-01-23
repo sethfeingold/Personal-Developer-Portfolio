@@ -137,16 +137,28 @@
 }
 
 .project-title {
+    margin-top: 5px;
     color: #7176BF;
 }
 
 .project-image {
-    padding: 10px 0px;
+    margin: 10px auto;
+    border: 3px solid #7176BF;
+    border-radius: 10px;
 }
 
 .project-link {
     text-decoration: none;
     color: #7176BF;
+}
+
+.project-desc, .skill-desc {
+    color: #4D4D4D;
+}
+
+.project-desc {
+    margin-top: 8px;
+    line-height: 1.3rem;
 }
 
 .logo-wrapper {
@@ -272,8 +284,12 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 40px;
-        padding-top: 20px;
+        margin: 20px auto;
         max-width: 90%;
+    }
+
+    .project-card {
+        margin: 0 auto;
     }
 }
 
@@ -297,9 +313,8 @@
 @media (min-width: 1260px) {
 
     .project-container {
-        max-width: 80%;
         grid-template-columns: repeat(3, 1fr);
     }
-    
+
 }
 
