@@ -13,7 +13,7 @@ $(document).on("click", "#skillsButton", function() {
             <div class="skill-container">
                 <div class="about-me">
                     <div class="skill-logo">
-                        <img src="./images/seth_headshot.jpg" alt="photo of Seth Feingold" height="85px" width="85px" style="border-radius:50%">
+                        <img src="images/seth_headshot.jpg" alt="photo of Seth Feingold" height="85px" width="85px" style="border-radius:50%">
                     </div>
                     <h4 class="skill-title">About Me</h4>
                     <br/>
@@ -106,7 +106,7 @@ $(document).on("click", "#skillsFromProjectsBtn", function() {
         <div class="skill-container">
             <div class="about-me">
                 <div class="skill-logo">
-                    <img src="./images/seth_headshot.jpg" alt="photo of Seth Feingold" height="85px" width="85px" style="border-radius:50%">
+                    <img src="images/seth_headshot.jpg" alt="photo of Seth Feingold" height="85px" width="85px" style="border-radius:50%">
                 </div>
                 <h4 class="skill-title">About Me</h4>
                 <br/>
@@ -200,7 +200,7 @@ $(document).on("click", "#projectsButton", function() {
                 <div class="project-card">
                     <h4 class="project-title">Web App Dashboard</h4>
                     <a href="https://sethfeingold.github.io/webapp-dashboard" target="_blank" class="project-link">
-                        <img class="project-image" src="./images/project-images/webapp-dashboard.jpeg" alt="webapp dashboard screenshot" width="250px" height="250px">
+                        <img class="project-image" src="images/project-images/webapp-dashboard.jpeg" alt="webapp dashboard screenshot" width="250px" height="250px">
                     </a>
                     <p class="project-desc">This project uses the browser's local storage in order to save user preferences such as email notifications, public profile options, and the user's timezone.
                     <br/><br/>I used the open-source ChartJS library in order to display dynamic graphs of hourly, daily, weekly, and monthly traffic.
@@ -210,7 +210,7 @@ $(document).on("click", "#projectsButton", function() {
                 <div class="project-card">
                     <h4 class="project-title">Employee Directory</h4>
                     <a href="https://sethfeingold.github.io/employee-directory-using-api" target="_blank" class="project-link">
-                        <img class="project-image" src="./images/project-images/employee-directory.jpeg" alt="employee directory screenshot" width="250px" height="250px">
+                        <img class="project-image" src="images/project-images/employee-directory.jpeg" alt="employee directory screenshot" width="250px" height="250px">
                     </a>
                     <p class="project-desc">A mock employee directory which calls the RandomUser API and displays information for 12 random employees each time the page loads.
                     <br/><br/>Clicking on an employee card opens a modal window that displays more detailed information such as their phone number, address, and birthday. The search bar at the top allows employees to be filtered by name.
@@ -220,7 +220,7 @@ $(document).on("click", "#projectsButton", function() {
                 <div class="project-card">
                     <h4 class="project-title">Word Guessing Game</h4>
                     <a href="https://sethfeingold.github.io/word-guessing-game" target="_blank" class="project-link">
-                        <img class="project-image" src="./images/project-images/word-guessing-game.jpeg" alt="word guessing game screenshot" width="250px" height="250px">
+                        <img class="project-image" src="images/project-images/word-guessing-game.jpeg" alt="word guessing game screenshot" width="250px" height="250px">
                     </a>
                     <p class="project-desc">A simple interactive game in which the player has 5 chances to guess a randomly generated phrase.
                     <br/><br/>Wrong guesses will take a heart away from the 'health bar' at the bottom, and letters which have already been chosen will be highlighted.
@@ -230,7 +230,7 @@ $(document).on("click", "#projectsButton", function() {
                 <div class="project-card">
                     <h4 class="project-title">Responsive Web Form</h4>
                     <a href="https://sethfeingold.github.io/tech-degree-project-3" target="_blank" class="project-link">
-                        <img class="project-image" src="./images/project-images/responsive-web-form.jpeg" alt="responsive web form screenshot" width="250px" height="250px">
+                        <img class="project-image" src="images/project-images/responsive-web-form.jpeg" alt="responsive web form screenshot" width="250px" height="250px">
                     </a>
                     <p class="project-desc">This is a mobile-responsive web form which mimics a newsletter sign-up page.
                     <br/><br/>Forms are a recurring part of front end web development, and it's crucial to make sure that a web form is mobile-responsive. 
@@ -240,7 +240,7 @@ $(document).on("click", "#projectsButton", function() {
                 <div class="project-card">
                     <h4 class="project-title">Interactive Gallery</h4>
                     <a href="https://sethfeingold.github.io/tech-degree-project-5" target="_blank" class="project-link">
-                        <img class="project-image" src="./images/project-images/interactive-gallery.jpeg" alt="interactive photo gallery screenshot" width="250px" height="250px">
+                        <img class="project-image" src="images/project-images/interactive-gallery.jpeg" alt="interactive photo gallery screenshot" width="250px" height="250px">
                     </a>
                     <p class="project-desc">This is an interactive photo gallery, similar to what an artist or a photographer would use to display photos on their website.
                     <br/><br/>The project uses two jQuery plugins - one called FancyBox and one called HideSeek.
@@ -251,7 +251,7 @@ $(document).on("click", "#projectsButton", function() {
                 <div class="project-card">
                     <h4 class="project-title">Personal Blog Page</h4>
                     <a href="https://sethfeingold.github.io/tech-degree-project-1" target="_blank" class="project-link">
-                        <img class="project-image" src="./images/project-images/personal-page.jpeg" alt="personal blog page screenshot" width="250px" height="250px">
+                        <img class="project-image" src="images/project-images/personal-page.jpeg" alt="personal blog page screenshot" width="250px" height="250px">
                     </a>
                     <p class="project-desc">A personal profile page that showcases some of my learning goals, work experience, and some of the places my previous job took me.
                     <br/><br/>This was the first project I created as part of the Tech Degree offered by Team Treehouse, an online learning platform which teaches both front-end and full-stack JavaScript development.
@@ -280,7 +280,7 @@ $(document).on("click", "#projectFromSkillsBtn", function() {
                 <div class="project-card">
                     <h4 class="project-title">Web App Dashboard</h4>
                     <a href="https://sethfeingold.github.io/webapp-dashboard" target="_blank" class="project-link">
-                        <img class="project-image" src="./images/project-images/webapp-dashboard.jpeg" alt="webapp dashboard screenshot" width="250px" height="250px">
+                        <img class="project-image" src="images/project-images/webapp-dashboard.jpeg" alt="webapp dashboard screenshot" width="250px" height="250px">
                     </a>
                     <p class="project-desc">This project uses the browser's local storage in order to save user preferences such as email notifications, public profile options, and the user's timezone.
                     <br/><br/>I used the open-source ChartJS library in order to display dynamic graphs of hourly, daily, weekly, and monthly traffic.
@@ -290,7 +290,7 @@ $(document).on("click", "#projectFromSkillsBtn", function() {
                 <div class="project-card">
                     <h4 class="project-title">Employee Directory</h4>
                     <a href="https://sethfeingold.github.io/employee-directory-using-api" target="_blank" class="project-link">
-                        <img class="project-image" src="./images/project-images/employee-directory.jpeg" alt="employee directory screenshot" width="250px" height="250px">
+                        <img class="project-image" src="images/project-images/employee-directory.jpeg" alt="employee directory screenshot" width="250px" height="250px">
                     </a>
                     <p class="project-desc">A mock employee directory which calls the RandomUser API and displays information for 12 random employees each time the page loads.
                     <br/><br/>Clicking on an employee card opens a modal window that displays more detailed information such as their phone number, address, and birthday. The search bar at the top allows employees to be filtered by name.
@@ -300,7 +300,7 @@ $(document).on("click", "#projectFromSkillsBtn", function() {
                 <div class="project-card">
                     <h4 class="project-title">Word Guessing Game</h4>
                     <a href="https://sethfeingold.github.io/word-guessing-game" target="_blank" class="project-link">
-                        <img class="project-image" src="./images/project-images/word-guessing-game.jpeg" alt="word guessing game screenshot" width="250px" height="250px">
+                        <img class="project-image" src="images/project-images/word-guessing-game.jpeg" alt="word guessing game screenshot" width="250px" height="250px">
                     </a>
                     <p class="project-desc">A simple interactive game in which the player has 5 chances to guess a randomly generated phrase.
                     <br/><br/>Wrong guesses will take a heart away from the 'health bar' at the bottom, and letters which have already been chosen will be highlighted.
@@ -310,7 +310,7 @@ $(document).on("click", "#projectFromSkillsBtn", function() {
                 <div class="project-card">
                     <h4 class="project-title">Responsive Web Form</h4>
                     <a href="https://sethfeingold.github.io/tech-degree-project-3" target="_blank" class="project-link">
-                        <img class="project-image" src="./images/project-images/responsive-web-form.jpeg" alt="responsive web form screenshot" width="250px" height="250px">
+                        <img class="project-image" src="images/project-images/responsive-web-form.jpeg" alt="responsive web form screenshot" width="250px" height="250px">
                     </a>
                     <p class="project-desc">This is a mobile-responsive web form which mimics a newsletter sign-up page.
                     <br/><br/>Forms are a recurring part of front end web development, and it's crucial to make sure that a web form is mobile-responsive. 
@@ -320,7 +320,7 @@ $(document).on("click", "#projectFromSkillsBtn", function() {
                 <div class="project-card">
                     <h4 class="project-title">Interactive Gallery</h4>
                     <a href="https://sethfeingold.github.io/tech-degree-project-5" target="_blank" class="project-link">
-                        <img class="project-image" src="./images/project-images/interactive-gallery.jpeg" alt="interactive photo gallery screenshot" width="250px" height="250px">
+                        <img class="project-image" src="images/project-images/interactive-gallery.jpeg" alt="interactive photo gallery screenshot" width="250px" height="250px">
                     </a>
                     <p class="project-desc">This is an interactive photo gallery, similar to what an artist or a photographer would use to display photos on their website.
                     <br/><br/>The project uses two jQuery plugins - one called FancyBox and one called HideSeek.
@@ -331,7 +331,7 @@ $(document).on("click", "#projectFromSkillsBtn", function() {
                 <div class="project-card">
                     <h4 class="project-title">Personal Blog Page</h4>
                     <a href="https://sethfeingold.github.io/tech-degree-project-1" target="_blank" class="project-link">
-                        <img class="project-image" src="./images/project-images/personal-page.jpeg" alt="personal blog page screenshot" width="250px" height="250px">
+                        <img class="project-image" src="images/project-images/personal-page.jpeg" alt="personal blog page screenshot" width="250px" height="250px">
                     </a>
                     <p class="project-desc">A personal profile page that showcases some of my learning goals, work experience, and some of the places my previous job took me.
                     <br/><br/>This was the first project I created as part of the Tech Degree offered by Team Treehouse, an online learning platform which teaches both front-end and full-stack JavaScript development.
