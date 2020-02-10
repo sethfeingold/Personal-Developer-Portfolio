@@ -197,6 +197,19 @@ $(document).on("click", "#projectsButton", function() {
                 <button id="skillsFromProjectsBtn">View Skill Set</button>
             </div>
             <div class="project-container">
+
+            <div class="project-card">
+                <h4 class="project-title">React Watch Shop</h4>
+                <a href="https://sethfeingold.github.io/watch-store-react/" target="_blank" class="project-link">
+                    <img class="project-image" src="images/project-images/watch-store-react.png" alt="watch ecommerce store screenshot" width="250px" height="250px">
+                </a>
+                <p class="project-desc">
+                    Mock watch E-Commerce store created with React, Bootstrap, and Styled Components. 
+                    <br/><br/>Users can view product information, move watches in and out of their shopping cart, and view the total costs of their purchase.
+                    <br/><br/>This project uses React’s Context API for easy state management and React Router to link between product and cart components. 
+                </p>   
+            </div>
+
                 <div class="project-card">
                     <h4 class="project-title">Web App Dashboard</h4>
                     <a href="https://sethfeingold.github.io/webapp-dashboard" target="_blank" class="project-link">
@@ -225,16 +238,6 @@ $(document).on("click", "#projectsButton", function() {
                     <p class="project-desc">A simple interactive game in which the player has 5 chances to guess a randomly generated phrase.
                     <br/><br/>Wrong guesses will take a heart away from the 'health bar' at the bottom, and letters which have already been chosen will be highlighted.
                     <br/><br/>This was my first project created with JavaScript, and completing it successfully gave me a lot of motivation to continue learning how to program.</p>
-                </div>
-
-                <div class="project-card">
-                    <h4 class="project-title">Responsive Web Form</h4>
-                    <a href="https://sethfeingold.github.io/tech-degree-project-3" target="_blank" class="project-link">
-                        <img class="project-image" src="images/project-images/responsive-web-form.jpeg" alt="responsive web form screenshot" width="250px" height="250px">
-                    </a>
-                    <p class="project-desc">This is a mobile-responsive web form which mimics a newsletter sign-up page.
-                    <br/><br/>Forms are a recurring part of front end web development, and it's crucial to make sure that a web form is mobile-responsive. 
-                    <br/><br/>Mobile-responsiveness ensures that visitors and customers alike can easily fill out their information regardless of the device they are using - whether it's a phone, tablet, laptop, or desktop computer.</p>
                 </div>
 
                 <div class="project-card">
@@ -277,6 +280,19 @@ $(document).on("click", "#projectFromSkillsBtn", function() {
                 <button id="skillsFromProjectsBtn">View Skill Set</button>
             </div>
             <div class="project-container">
+
+                <div class="project-card">
+                    <h4 class="project-title">React Watch Shop</h4>
+                    <a href="https://sethfeingold.github.io/watch-store-react/" target="_blank" class="project-link">
+                        <img class="project-image" src="images/project-images/watch-store-react.png" alt="watch ecommerce store screenshot" width="250px" height="250px">
+                    </a>
+                    <p class="project-desc">
+                        Mock watch E-Commerce store created with React, Bootstrap, and Styled Components. 
+                        <br/><br/>Users can view product information, move watches in and out of their shopping cart, and view the total costs of their purchase.
+                        <br/><br/>This project uses React’s Context API for easy state management and React Router to link between product and cart components. 
+                    </p>   
+                </div>
+
                 <div class="project-card">
                     <h4 class="project-title">Web App Dashboard</h4>
                     <a href="https://sethfeingold.github.io/webapp-dashboard" target="_blank" class="project-link">
@@ -305,16 +321,6 @@ $(document).on("click", "#projectFromSkillsBtn", function() {
                     <p class="project-desc">A simple interactive game in which the player has 5 chances to guess a randomly generated phrase.
                     <br/><br/>Wrong guesses will take a heart away from the 'health bar' at the bottom, and letters which have already been chosen will be highlighted.
                     <br/><br/>This was my first project created with JavaScript, and completing it successfully gave me a lot of motivation to continue learning how to program.</p>
-                </div>
-
-                <div class="project-card">
-                    <h4 class="project-title">Responsive Web Form</h4>
-                    <a href="https://sethfeingold.github.io/tech-degree-project-3" target="_blank" class="project-link">
-                        <img class="project-image" src="images/project-images/responsive-web-form.jpeg" alt="responsive web form screenshot" width="250px" height="250px">
-                    </a>
-                    <p class="project-desc">This is a mobile-responsive web form which mimics a newsletter sign-up page.
-                    <br/><br/>Forms are a recurring part of front end web development, and it's crucial to make sure that a web form is mobile-responsive. 
-                    <br/><br/>Mobile-responsiveness ensures that visitors and customers alike can easily fill out their information regardless of the device they are using - whether it's a phone, tablet, laptop, or desktop computer.</p>
                 </div>
 
                 <div class="project-card">
