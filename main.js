@@ -17,10 +17,10 @@ $(document).on("click", "#skillsButton", function() {
                     </div>
                     <h4 class="skill-title">About Me</h4>
                     <br/>
-                    <p class="skill-desc">I'm a self-taught web developer focused on learning front-end technologies such as React, Redux, and VueJS. I am currently seeking opportunities for a junior web developer position in order to continue learning and adding to my skill set. I believe that building and contributing to projects is the best way to learn programming, thus I'm seeking to get as much hands-on experience as possible.</p>
+                    <p class="skill-desc">I'm a self-taught developer focused on learning front-end web technologies such as React, Redux, and VueJS. I am currently seeking opportunities for a junior web or email developer position in order to continue learning and adding to my skill set. I believe that building and contributing to projects is the best way to learn programming, thus I'm seeking to get as much hands-on experience as possible.</p>
                     <br/>
-                    <p class="skill-desc">In my own projects I strive to implement a modern, mobile-first approach in order to ensure that they display correctly on any device regardless of screen width and maintain cross-browser compatibility.</p>
-                </div>
+                    <p class="skill-desc">In my own projects I strive to implement a modern, mobile-first approach in order to ensure that they display correctly on any device regardless of screen width and maintain compatibility across browsers and email clients.</p>
+                    </div>
 
                 <div class="skill-list">
                     <div class="skills-wrapper">
@@ -111,9 +111,9 @@ $(document).on("click", "#skillsFromProjectsBtn", function() {
                 </div>
                 <h4 class="skill-title">About Me</h4>
                 <br/>
-                <p class="skill-desc">I'm a self-taught web developer focused on learning front-end technologies such as React, Redux, and VueJS. I am currently seeking opportunities for a junior web developer position in order to continue learning and adding to my skill set. I believe that building and contributing to projects is the best way to learn programming, thus I'm seeking to get as much hands-on experience as possible.</p>
+                <p class="skill-desc">I'm a self-taught developer focused on learning front-end web technologies such as React, Redux, and VueJS. I am currently seeking opportunities for a junior web or email developer position in order to continue learning and adding to my skill set. I believe that building and contributing to projects is the best way to learn programming, thus I'm seeking to get as much hands-on experience as possible.</p>
                 <br/>
-                <p class="skill-desc">In my own projects I strive to implement a modern, mobile-first approach in order to ensure that they display correctly on any device regardless of screen width and maintain cross-browser compatibility.</p>
+                <p class="skill-desc">In my own projects I strive to implement a modern, mobile-first approach in order to ensure that they display correctly on any device regardless of screen width and maintain compatibility across browsers and email clients.</p>
             </div>
 
             <div class="skill-list">
