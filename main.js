@@ -67,6 +67,7 @@ $(document).on("click", "#skillsButton", function() {
                         <ul>
                             <li class="skill-desc">JavaScript (ES6+, AJAX, Fetch API)</li>
                             <li class="skill-desc">REST API/JSON</li>
+                            <li class="skill-desc">Responsive Email Development</li>
                             <li class="skill-desc">HTML5</li>
                             <li class="skill-desc">CSS3 (Flexbox and Grid)</li>
                             <li class="skill-desc">SASS</li>
@@ -160,6 +161,7 @@ $(document).on("click", "#skillsFromProjectsBtn", function() {
                     <ul>
                         <li class="skill-desc">JavaScript (ES6+, AJAX, Fetch API)</li>
                         <li class="skill-desc">REST API/JSON</li>
+                        <li class="skill-desc">Responsive Email Development</li>
                         <li class="skill-desc">HTML5</li>
                         <li class="skill-desc">CSS3 (Flexbox and Grid)</li>
                         <li class="skill-desc">SASS</li>
