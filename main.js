@@ -200,17 +200,17 @@ $(document).on("click", "#projectsButton", function() {
             </div>
             <div class="project-container">
 
-            <div class="project-card">
-                <h4 class="project-title">React Watch Shop</h4>
-                <a href="https://sethfeingold.github.io/watch-store-react/" target="_blank" class="project-link">
-                    <img class="project-image" src="images/project-images/watch-store-react.png" alt="watch ecommerce store screenshot" width="250px" height="250px">
-                </a>
-                <p class="project-desc">
-                    Mock watch E-Commerce store created with React, Bootstrap, and Styled Components. 
-                    <br/><br/>Users can view product information, move watches in and out of their shopping cart, and view the total costs of their purchase.
-                    <br/><br/>This project uses React’s Context API for easy state management and React Router to link between product and cart components. 
-                </p>   
-            </div>
+                <div class="project-card">
+                    <h4 class="project-title">React Watch Shop</h4>
+                    <a href="https://sethfeingold.github.io/watch-store-react/" target="_blank" class="project-link">
+                        <img class="project-image" src="images/project-images/watch-store-react.png" alt="watch ecommerce store screenshot" width="250px" height="250px">
+                    </a>
+                    <p class="project-desc">
+                        Mock watch E-Commerce store created with React, Bootstrap, and Styled Components. 
+                        <br/><br/>Users can view product information, move watches in and out of their shopping cart, and view the total costs of their purchase.
+                        <br/><br/>This project uses React’s Context API for easy state management and React Router to link between product and cart components. 
+                    </p>   
+                </div>
 
                 <div class="project-card">
                     <h4 class="project-title">Web App Dashboard</h4>
@@ -220,6 +220,41 @@ $(document).on("click", "#projectsButton", function() {
                     <p class="project-desc">This project uses the browser's local storage in order to save user preferences such as email notifications, public profile options, and the user's timezone.
                     <br/><br/>I used the open-source ChartJS library in order to display dynamic graphs of hourly, daily, weekly, and monthly traffic.
                     <br/><br/>In the 'Message User' section, the user searchbar allows you to filter through the 'members' list and use the arrow keys to navigate up or down the list. Pressing enter will select the desired user.</p>
+                </div>
+
+                <div class="project-card">
+                    <h4 class="project-title">Airbnb Newsletter Email</h4>
+                    <a href="https://sethfeingold.github.io/airbnb-newsletter/" target="_blank" class="project-link">
+                        <img class="project-image" src="images/project-images/airbnb-newsletter.png" alt="watch ecommerce store screenshot" width="250px" height="250px">
+                    </a>
+                    <p class="project-desc">
+                        Responsive email newsletter. The design was taken from a monthly newsletter that Airbnb sends to hosts, informing them of upcoming events and household tips.
+                        <br/><br/>Companies often send recurring, information-rich newsletters to increase customer retention, promote interaction, and inform customers of company-related news.
+                    </p>   
+                </div>
+
+                <div class="project-card">
+                    <h4 class="project-title">Peet's Promotional Email</h4>
+                    <a href="https://sethfeingold.github.io/peets-coffee-promotion/" target="_blank" class="project-link">
+                        <img class="project-image" src="images/project-images/peets-promotional.png" alt="watch ecommerce store screenshot" width="250px" height="250px">
+                    </a>
+                    <p class="project-desc">
+                        Responsive promotional email. The design was taken from a Peet's Coffee promotional email which was sent to customers for Valentine's Day.
+                        <br/><br/>Email is incredibly effective for sending customers promotional deals and coupons, especially around the holidays.
+                        <br/><br/>According to the Data & Marketing Association, companies can expect an average return of $42 for every $1 spent on email marketing.
+                    </p>   
+                </div>
+
+                <div class="project-card">
+                    <h4 class="project-title">Apple Transactional Email</h4>
+                    <a href="https://sethfeingold.github.io/apple-transactional-email/" target="_blank" class="project-link">
+                        <img class="project-image" src="images/project-images/apple-transactional.png" alt="watch ecommerce store screenshot" width="250px" height="250px">
+                    </a>
+                    <p class="project-desc">
+                        Responsive transactional email. The design was taken from an email that Apple sends me to inform me of monthly iCloud storage plan fees.
+                        <br/><br/>Transactional emails are sent to customers in order to confirm details for online purchases and returns.
+                        <br/><br/>Receiving receipts via email is also a popular option for in-store purchases, thus it's important to ensure this information is readable for customers checking emailed receipts on their mobile device.
+                    </p>   
                 </div>
 
                 <div class="project-card">
@@ -303,6 +338,41 @@ $(document).on("click", "#projectFromSkillsBtn", function() {
                     <p class="project-desc">This project uses the browser's local storage in order to save user preferences such as email notifications, public profile options, and the user's timezone.
                     <br/><br/>I used the open-source ChartJS library in order to display dynamic graphs of hourly, daily, weekly, and monthly traffic.
                     <br/><br/>In the 'Message User' section, the user searchbar allows you to filter through the 'members' list and use the arrow keys to navigate up or down the list. Pressing enter will select the desired user.</p>
+                </div>
+
+                <div class="project-card">
+                    <h4 class="project-title">Airbnb Newsletter Email</h4>
+                    <a href="https://sethfeingold.github.io/airbnb-newsletter/" target="_blank" class="project-link">
+                        <img class="project-image" src="images/project-images/airbnb-newsletter.png" alt="watch ecommerce store screenshot" width="250px" height="250px">
+                    </a>
+                    <p class="project-desc">
+                        Responsive email newsletter. The design was taken from a monthly newsletter that Airbnb sends to hosts, informing them of upcoming events and household tips.
+                        <br/><br/>Companies often send recurring, information-rich newsletters to increase customer retention, promote interaction, and inform customers of company-related news.
+                    </p>   
+                </div>
+
+                <div class="project-card">
+                    <h4 class="project-title">Peet's Promotional Email</h4>
+                    <a href="https://sethfeingold.github.io/peets-coffee-promotion/" target="_blank" class="project-link">
+                        <img class="project-image" src="images/project-images/peets-promotional.png" alt="watch ecommerce store screenshot" width="250px" height="250px">
+                    </a>
+                    <p class="project-desc">
+                        Responsive promotional email. The design was taken from a Peet's Coffee promotional email which was sent to customers for Valentine's Day.
+                        <br/><br/>Email is incredibly effective for sending customers promotional deals and coupons, especially around the holidays.
+                        <br/><br/>According to the Data & Marketing Association, companies can expect an average return of $42 for every $1 spent on email marketing.
+                    </p>   
+                </div>
+
+                <div class="project-card">
+                    <h4 class="project-title">Apple Transactional Email</h4>
+                    <a href="https://sethfeingold.github.io/apple-transactional-email/" target="_blank" class="project-link">
+                        <img class="project-image" src="images/project-images/apple-transactional.png" alt="watch ecommerce store screenshot" width="250px" height="250px">
+                    </a>
+                    <p class="project-desc">
+                        Responsive transactional email. The design was taken from an email that Apple sends me to inform me of monthly iCloud storage plan fees.
+                        <br/><br/>Transactional emails are sent to customers in order to confirm details for online purchases and returns.
+                        <br/><br/>Receiving receipts via email is also a popular option for in-store purchases, thus it's important to ensure this information is readable for customers checking emailed receipts on their mobile device.
+                    </p>   
                 </div>
 
                 <div class="project-card">
