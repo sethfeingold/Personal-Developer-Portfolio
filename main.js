@@ -217,9 +217,9 @@ $(document).on("click", "#projectsButton", function() {
                     <a href="https://sethfeingold.github.io/webapp-dashboard" target="_blank" class="project-link">
                         <img class="project-image" src="images/project-images/webapp-dashboard.jpeg" alt="webapp dashboard screenshot" width="250px" height="250px">
                     </a>
-                    <p class="project-desc">This project uses the browser's local storage in order to save user preferences such as email notifications, public profile options, and the user's timezone.
-                    <br/><br/>I used the open-source ChartJS library in order to display dynamic graphs of hourly, daily, weekly, and monthly traffic.
-                    <br/><br/>In the 'Message User' section, the user searchbar allows you to filter through the 'members' list and use the arrow keys to navigate up or down the list. Pressing enter will select the desired user.</p>
+                    <p class="project-desc">This mock web application dashboard uses the open-source ChartJS library to display dynamic graphs of sample hourly, daily, weekly, and monthly traffic data.
+                    <br/><br/>Accesses the browser's local storage to save user preferences such as email notifications, public profile options, and selected timezone.
+                    <br/><br/>In the 'Message User' section, a searchbar allows you to filter through the sample members list and the arrow keys will navigate up or down the list. Pressing enter will select the desired user.</p>
                 </div>
 
                 <div class="project-card">
@@ -335,9 +335,9 @@ $(document).on("click", "#projectFromSkillsBtn", function() {
                     <a href="https://sethfeingold.github.io/webapp-dashboard" target="_blank" class="project-link">
                         <img class="project-image" src="images/project-images/webapp-dashboard.jpeg" alt="webapp dashboard screenshot" width="250px" height="250px">
                     </a>
-                    <p class="project-desc">This project uses the browser's local storage in order to save user preferences such as email notifications, public profile options, and the user's timezone.
-                    <br/><br/>I used the open-source ChartJS library in order to display dynamic graphs of hourly, daily, weekly, and monthly traffic.
-                    <br/><br/>In the 'Message User' section, the user searchbar allows you to filter through the 'members' list and use the arrow keys to navigate up or down the list. Pressing enter will select the desired user.</p>
+                    <p class="project-desc">This mock web application dashboard uses the open-source ChartJS library to display dynamic graphs of sample hourly, daily, weekly, and monthly traffic data.
+                    <br/><br/>Accesses the browser's local storage to save user preferences such as email notifications, public profile options, and selected timezone.
+                    <br/><br/>In the 'Message User' section, a searchbar allows you to filter through the sample members list and the arrow keys will navigate up or down the list. Pressing enter will select the desired user.</p>
                 </div>
 
                 <div class="project-card">
@@ -370,7 +370,7 @@ $(document).on("click", "#projectFromSkillsBtn", function() {
                     </a>
                     <p class="project-desc">
                         Responsive transactional email. The design was taken from an email that Apple sends me to inform me of monthly iCloud storage plan fees.
-                        <br/><br/>Transactional emails are sent to customers in order to confirm details for online purchases and returns.
+                        <br/><br/>Transactional emails are sent to cugitstomers in order to confirm details for online purchases and returns.
                         <br/><br/>Receiving receipts via email is also a popular option for in-store purchases, thus it's important to ensure this information is readable for customers checking emailed receipts on their mobile device.
                     </p>   
                 </div>
