@@ -209,6 +209,7 @@ $(document).on("click", "#projectsButton", function() {
                         Mock watch E-Commerce store created with React, Bootstrap, and Styled Components. 
                         <br/><br/>Users can view product information, move watches in and out of their shopping cart, and view the total costs of their purchase.
                         <br/><br/>This project uses React’s Context API for easy state management and React Router to link between product and cart components. 
+                        <br/><br/>I built this project with help from a freeCodeCamp sponsored tutorial created by https://www.youtube.com/codingaddict
                     </p>   
                 </div>
 
@@ -327,6 +328,7 @@ $(document).on("click", "#projectFromSkillsBtn", function() {
                         Mock watch E-Commerce store created with React, Bootstrap, and Styled Components. 
                         <br/><br/>Users can view product information, move watches in and out of their shopping cart, and view the total costs of their purchase.
                         <br/><br/>This project uses React’s Context API for easy state management and React Router to link between product and cart components. 
+                        <br/><br/>I built this project with help from a freeCodeCamp sponsored tutorial created by https://www.youtube.com/codingaddict
                     </p>   
                 </div>
 
